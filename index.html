@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="./input.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="container flex items-center mt-6 sm:mt-10 py-5 px-2 bg-purple-700 rounded-md"
+      >
+        <div class="text-white">BOOKMARK</div>
+        <ul
+          class="hidden sm:flex justify-end uppercase items-center flex-1 text-white text-sm"
+        >
+          <li class="px-5">Features</li>
+          <li class="px-5">Pricing</li>
+          <li class="px-5">Contact</li>
+          <button class="uppercase bg-red-600 text-white rounded-lg px-4 py-1">
+            login
+          </button>
+        </ul>
+        <div class="sm:hidden flex justify-end flex-1">
+          <i class="fas fa-bars text-2xl hover:bg-slate-200"></i>
+        </div>
+      </nav>
+    </header>
+
+    <section class="relative">
+      <div
+        class="container mt-5 sm:mt-10 flex flex-col-reverse md:flex-row items-center gap-5"
+      >
+        <div class="flex items-center flex-col flex-1 lg:items-start">
+          <h2 class="text-center lg:text-left text-lg mb-6">
+            A Simple Bookmark Manager
+          </h2>
+          <p class="text-center lg:text-left text-lg mb-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+            pariatur, dignissimos commodi soluta numquam id vitae
+          </p>
+          <div class="flex gap-6">
+            <button class="btn btn-purple hover:bg-white hover:text-black">
+              SignIn
+            </button>
+            <button
+              class="btn btn-white hover:bg-purple-600 hover:text-white shadow-2xl"
+            >
+              SignUp
+            </button>
+          </div>
+        </div>
+
+        <div class="flex flex-1 justify-center z-10">
+          <img
+            src="https://cdn4.vectorstock.com/i/1000x1000/92/03/technology-computer-screen-cartoon-vector-22889203.jpg"
+            alt="computer"
+            class="w-64 md:w-72 lg:w-80 rounded-2xl"
+          />
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="hidden md:block overflow-hidden bg-purple-900 rounded-l-full absolute h-72 w-1/2 top-44 right-0"
+    ></div>
+
+    <section class="bg-neutral-300 mt-10 lg:mt-20">
+      <div class="container text-center">
+        <h2 class="text-3xl text-blue-500">Features</h2>
+        <p class="">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+          laborum, suscipit illum, libero eaque doloribus tenetur esse
+          blanditiis officiis eligendi officia laudantium? Neque ab excepturi
+          blanditiis soluta eaque aspernatur magni.
+        </p>
+      </div>
+
+      <div class="relative mt-10 lg:mt-20">
+        <div class="flex flex-col md:flex-row justify-center items-center">
+          <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img
+              src="https://cdn4.vectorstock.com/i/1000x1000/92/03/technology-computer-screen-cartoon-vector-22889203.jpg"
+              alt="computer"
+              class="w-64 md:w-72 lg:w-80 rounded-xl"
+            />
+          </div>
+          <div class="flex flex-1 flex-col justify-center items-center">
+            <h2 class="text-3xl text-blue-500 text-center mt-8 md:mt-12">
+              Bookmark in One Click
+            </h2>
+            <p class="text-center mt-3 lg:text-left text-lg mb-6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium, iure assumenda. Hic dolore aut ex voluptas ducimus
+              minima quae veritatis quidem, magnam dignissimos omnis debitis
+              optio, tenetur ullam reprehenderit. Fugiat.
+            </p>
+            <button class="btn btn-purple hover:bg-white hover:text-black mt-3">
+              More Info
+            </button>
+          </div>
+        </div>
+        <div
+          class="absolute hidden md:block bg-purple-900 h-72 w-1/2 rounded-r-full left-0 top-9"
+        ></div>
+      </div>
+    </section>
+
+    <section class="py-1 mt-10 lg:mt-20">
+      <div class="container text-center">
+        <h2 class="text-3xl text-blue-500 text-center">Download</h2>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div
+        class="container grid grid-rows-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-[1024px] mt-10 gap-16"
+      >
+        <div class="flex flex-col rounded-md shadow-md lg:mb-16">
+          <div class="p-6 flex flex-col items-center">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg"
+              alt="chrome"
+              class="w-20"
+            />
+            <h3 class="mt-5 mb-3 text-black text-lg">Add To chrome</h3>
+            <p class="mb-2 text-neutral-300 font-light">
+              Lorem ipsum dolor sit amet
+            </p>
+          </div>
+          <hr class="border-b border-white" />
+          <div class="flex py-3 mx-2">
+            <button
+              class="flex-1 btn btn-purple hover:bg-white hover:text-black"
+            >
+              Add Extensions
+            </button>
+          </div>
+        </div>
+        <div class="flex flex-col rounded-md shadow-md lg:mt-8 lg:mb-8">
+          <div class="p-6 flex flex-col items-center">
+            <img
+              src="https://1000logos.net/wp-content/uploads/2020/08/Opera-Logo.png"
+              alt="Opera"
+              class="w-32"
+            />
+            <h3 class="mt-5 mb-3 text-black text-lg">Add To Opera</h3>
+            <p class="mb-2 text-neutral-300 font-light">
+              Lorem ipsum dolor sit amet
+            </p>
+          </div>
+          <hr class="border-b border-white" />
+          <div class="flex py-3 mx-2">
+            <button
+              class="flex-1 btn btn-purple hover:bg-white hover:text-black"
+            >
+              Add Extensions
+            </button>
+          </div>
+        </div>
+        <div class="flex flex-col rounded-md shadow-md lg:mt-16">
+          <div class="p-6 flex flex-col items-center">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1200px-Firefox_logo%2C_2019.svg.png"
+              alt="FireFox"
+              class="w-20"
+            />
+            <h3 class="mt-5 mb-3 text-black text-lg">Add To FireFox</h3>
+            <p class="mb-2 text-neutral-300 font-light">
+              Lorem ipsum dolor sit amet
+            </p>
+          </div>
+          <hr class="border-b border-white" />
+          <div class="flex py-3 mx-2">
+            <button
+              class="flex-1 btn btn-purple hover:bg-white hover:text-black"
+            >
+              Add Extensions
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-neutral-300 mt-8 lg:mt-20">
+      <div class="container text-center">
+        <h2 class="text-3xl text-blue-500 text-center">FAQ's</h2>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+
+      <div class="flex flex-col sm:w-3/4 lg:w-5/12 mt-6 mx-auto">
+        <div class="flex items-center border-b py-4">
+          <span class="flex-1 text-lg">What is a Bookmark?</span>
+          <i class="fas fa-chevron-down text-lg text-purple-600"></i>
+        </div>
+        <div class="flex items-center border-b py-4">
+          <span class="flex-1 text-lg">Lorem ipsum dolor?</span>
+          <i class="fas fa-chevron-down text-lg text-purple-600"></i>
+        </div>
+        <div class="flex items-center border-b py-4">
+          <span class="flex-1 text-lg">Lorem ipsum dolor?</span>
+          <i class="fas fa-chevron-down text-lg text-purple-600"></i>
+        </div>
+        <div class="flex items-center border-b py-4">
+          <span class="flex-1 text-lg">Lorem ipsum dolor?</span>
+          <i class="fas fa-chevron-down text-lg text-purple-600"></i>
+        </div>
+      </div>
+    </section>
+
+    <footer class="lg:mt-10 py-16 bg-purple-700">
+      <div class="flex flex-col items-center mb-8">
+        <div class="text-white text-lg text-center">
+          <p class="uppercase mb-4">35,000+ Joined</p>
+          <p>Stay up-to-date with what we're doing</p>
+        </div>
+        <div class="flex flex-row gap-5 mt-3">
+          <input
+            type="email"
+            class="rounded-lg"
+            placeholder="Enter your email"
+          />
+          <button class="bg-red-500 text-white rounded-lg p-2">
+            Contact Us
+          </button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
